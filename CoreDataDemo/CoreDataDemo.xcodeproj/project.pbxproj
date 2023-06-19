@@ -12,8 +12,8 @@
 		6A86C7002A3F067D002C4AEE /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A86C6FE2A3F067D002C4AEE /* CoreDataDemo.xcdatamodeld */; };
 		6A86C7022A3F067F002C4AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A86C7012A3F067F002C4AEE /* Assets.xcassets */; };
 		6A86C7052A3F067F002C4AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A86C7032A3F067F002C4AEE /* LaunchScreen.storyboard */; };
-		6A86C70D2A3F2C02002C4AEE /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A86C70C2A3F2C02002C4AEE /* TaskViewController.swift */; };
 		6A86C70F2A402321002C4AEE /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A86C70E2A402321002C4AEE /* StorageManager.swift */; };
+		6A86C7112A40324B002C4AEE /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A86C7102A40324B002C4AEE /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		6A86C7012A3F067F002C4AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A86C7042A3F067F002C4AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A86C7062A3F067F002C4AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6A86C70C2A3F2C02002C4AEE /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 		6A86C70E2A402321002C4AEE /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		6A86C7102A40324B002C4AEE /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				6A86C6F52A3F067D002C4AEE /* AppDelegate.swift */,
 				6A86C6F92A3F067D002C4AEE /* TaskListViewController.swift */,
-				6A86C70C2A3F2C02002C4AEE /* TaskViewController.swift */,
 				6A86C7012A3F067F002C4AEE /* Assets.xcassets */,
 				6A86C7032A3F067F002C4AEE /* LaunchScreen.storyboard */,
 				6A86C7062A3F067F002C4AEE /* Info.plist */,
 				6A86C6FE2A3F067D002C4AEE /* CoreDataDemo.xcdatamodeld */,
 				6A86C70E2A402321002C4AEE /* StorageManager.swift */,
+				6A86C7102A40324B002C4AEE /* AlertController.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -141,9 +141,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A86C6FA2A3F067D002C4AEE /* TaskListViewController.swift in Sources */,
-				6A86C70D2A3F2C02002C4AEE /* TaskViewController.swift in Sources */,
 				6A86C70F2A402321002C4AEE /* StorageManager.swift in Sources */,
 				6A86C7002A3F067D002C4AEE /* CoreDataDemo.xcdatamodeld in Sources */,
+				6A86C7112A40324B002C4AEE /* AlertController.swift in Sources */,
 				6A86C6F62A3F067D002C4AEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
