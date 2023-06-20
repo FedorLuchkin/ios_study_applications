@@ -15,6 +15,8 @@
 		6AC656D92A42278C004231E7 /* TaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC656D62A42278C004231E7 /* TaskListViewController.swift */; };
 		6AC656DA2A42278C004231E7 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC656D72A42278C004231E7 /* AlertController.swift */; };
 		6AC656DB2A42278C004231E7 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC656D82A42278C004231E7 /* TasksViewController.swift */; };
+		6AC656E02A422DEF004231E7 /* TaskListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC656DF2A422DEF004231E7 /* TaskListModel.swift */; };
+		6AC656E42A4233BC004231E7 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC656E32A4233BC004231E7 /* StorageManager.swift */; };
 		D0F5F414DE4FEA7A837604BD /* Pods_RealmApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C68A55ADC58EF2AC4D545 /* Pods_RealmApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +34,8 @@
 		6AC656D62A42278C004231E7 /* TaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskListViewController.swift; sourceTree = "<group>"; };
 		6AC656D72A42278C004231E7 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		6AC656D82A42278C004231E7 /* TasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		6AC656DF2A422DEF004231E7 /* TaskListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListModel.swift; sourceTree = "<group>"; };
+		6AC656E32A4233BC004231E7 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,17 +79,51 @@
 		6AC656BB2A4222FE004231E7 /* RealmApp */ = {
 			isa = PBXGroup;
 			children = (
-				6AC656D72A42278C004231E7 /* AlertController.swift */,
-				6AC656D62A42278C004231E7 /* TaskListViewController.swift */,
-				6AC656D82A42278C004231E7 /* TasksViewController.swift */,
+				6AC656DD2A422D26004231E7 /* ViewControllers */,
+				6AC656DC2A422D12004231E7 /* StoryBoards */,
+				6AC656DE2A422DB8004231E7 /* Models */,
+				6AC656E22A4233A3004231E7 /* Services */,
 				6AC656BC2A4222FE004231E7 /* AppDelegate.swift */,
 				6AC656BE2A4222FE004231E7 /* SceneDelegate.swift */,
-				6AC656C22A4222FE004231E7 /* Main.storyboard */,
 				6AC656C52A422300004231E7 /* Assets.xcassets */,
-				6AC656C72A422300004231E7 /* LaunchScreen.storyboard */,
 				6AC656CA2A422300004231E7 /* Info.plist */,
 			);
 			path = RealmApp;
+			sourceTree = "<group>";
+		};
+		6AC656DC2A422D12004231E7 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				6AC656C22A4222FE004231E7 /* Main.storyboard */,
+				6AC656C72A422300004231E7 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6AC656DD2A422D26004231E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AC656D72A42278C004231E7 /* AlertController.swift */,
+				6AC656D62A42278C004231E7 /* TaskListViewController.swift */,
+				6AC656D82A42278C004231E7 /* TasksViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6AC656DE2A422DB8004231E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AC656DF2A422DEF004231E7 /* TaskListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AC656E22A4233A3004231E7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6AC656E32A4233BC004231E7 /* StorageManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B795E390484E791562F00EB5 /* Pods */ = {
@@ -212,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC656E02A422DEF004231E7 /* TaskListModel.swift in Sources */,
 				6AC656DA2A42278C004231E7 /* AlertController.swift in Sources */,
 				6AC656BD2A4222FE004231E7 /* AppDelegate.swift in Sources */,
+				6AC656E42A4233BC004231E7 /* StorageManager.swift in Sources */,
 				6AC656DB2A42278C004231E7 /* TasksViewController.swift in Sources */,
 				6AC656BF2A4222FE004231E7 /* SceneDelegate.swift in Sources */,
 				6AC656D92A42278C004231E7 /* TaskListViewController.swift in Sources */,

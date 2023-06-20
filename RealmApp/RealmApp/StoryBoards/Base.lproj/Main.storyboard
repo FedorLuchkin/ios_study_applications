@@ -23,7 +23,7 @@
                                 <segment title="Date"/>
                             </segments>
                             <connections>
-                                <action selector="sortingList:" destination="5hG-8f-JYF" eventType="valueChanged" id="29N-86-0qj"/>
+                                <action selector="sortingList:" destination="5hG-8f-JYF" eventType="valueChanged" id="1iB-ms-h9j"/>
                             </connections>
                         </segmentedControl>
                         <prototypes>
@@ -51,7 +51,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="fYb-65-o5a" kind="show" id="H1G-Ei-deG"/>
+                                    <segue destination="fYb-65-o5a" kind="show" id="6wP-Zs-xRm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -63,7 +63,7 @@
                     <navigationItem key="navigationItem" title="Task Lists" id="abf-cJ-hXO">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="BAV-7p-RQf">
                             <connections>
-                                <action selector="addButtonPressed:" destination="5hG-8f-JYF" id="pSD-Sw-6ub"/>
+                                <action selector="addButtonPressed:" destination="5hG-8f-JYF" id="PdS-08-toB"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
